@@ -1,0 +1,61 @@
+.acc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logodiv {
+  display: flex;
+  padding-left: 5%;
+  color: rgb(244, 59, 105);
+  font-weight: 700;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile > p {
+  padding-top: 1rem;
+}
+.cards {
+  width: 32%;
+  position: relative;
+  padding: 1rem;
+  /* height: 10rem; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cardsflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  justify-content: center;
+  align-content: center;
+}
+.accdash {
+  margin: 3rem 7rem 0 7rem;
+}
+.cardvalue {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.accfooter{
+  font-family: PT Sans;
+  font-size: 1rem;
+text-align: center;
+margin-top: 3rem;
+  
+}
+.cardf{
+  font-family: PT Sans;
+}
+
+.accountd{
+  z-index: -1;
+}

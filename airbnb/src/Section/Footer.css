@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin: 3rem 3rem; */
+  justify-content: space-around;
+  background-color: rgba(228, 234, 239, 0.555);
+}
+.fcard {
+  font-size: smaller;
+  /* background-color: rgba(135, 144, 150, 0.555); */
+}
+.footfoot {
+  font-size: smaller;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* margin-left: 6.5rem; */
+  width:50%;
+  
+}
+.footicon{
+  font-size: smaller;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 6.5rem;
+  width:50%
+}
+.accountfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   padding:0rem 6rem ;
+   /* flex-wrap: wrap; */
+   background-color: rgba(228, 234, 239, 0.555);
+}

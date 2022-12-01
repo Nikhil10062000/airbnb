@@ -1,0 +1,48 @@
+.lgtitle {
+  margin-right: 11rem;
+  padding-top: 0.5rem;
+  font-weight: 700;
+}
+.AiOutlineClose {
+  margin: 0 0 0.2rem 0.2rem;
+  color: black;
+}
+
+.flowmodal {
+  overflow: auto;
+}
+.policy {
+  font-size: x-small;
+}
+.mdlbtn {
+  width: 100%;
+  height: 3rem;
+}
+.continue {
+  background-color: rgb(244, 59, 105);
+  border: 0.1rem ridge rgb(201, 186, 186);
+}
+.continue:hover {
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(244, 59, 105);
+  border: 0.1rem ridge rgb(201, 186, 186);
+}
+.facebook {
+    margin-top:1rem;
+  display: grid;
+  grid-template-areas: "head menu menu menu";
+}
+.item1 {
+  grid-area: head;
+  
+  padding-top: 0.4rem;
+}
+.item2 {
+  grid-area: menu;
+  text-align: center;
+  padding-right: 3rem;
+}
+.facebook:hover{
+    background-color: rgb(243, 248, 248);
+}

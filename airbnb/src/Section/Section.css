@@ -1,0 +1,35 @@
+.loginsec {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  padding-right: 4rem;
+}
+
+.lgbtn {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 25px;
+  column-gap: 0.5rem;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.gry {
+  color: rgb(43, 45, 45);
+}
+.lgbtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.fontayh {
+  font-weight: 600;
+  font-size: smaller;
+  padding-top: 5px;
+}
+.sect{
+  position: relative;
+}
